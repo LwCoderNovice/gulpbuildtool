@@ -1,0 +1,25 @@
+var pkg = require("./../package.json");
+
+var config = {
+  build: "./public/",
+  name: pkg.name,
+  port: process.env.PORT || 1234,
+  publish: false,
+  src: "./src/",
+  srcLocale: "./src/locale/",
+  srcScripts: "./src/coffee/",
+  srcImg: './src/img/',
+  srcScriptsStandalone: './src/scripts/standalone/',
+  srcJade: './src/jade/',
+  srcStylus: './src/stylus/',
+  destStylus: './public/static/css/',
+  destScripts: './public/static/js/',
+  destImg: './public/static/img/',
+  destFonts: './public/static/fonts/',
+  root: "./",
+  bower_path: "./bower_components/",
+  node_modules_path: "./node_modules/",
+  version: pkg.version
+};
+
+module.exports = config

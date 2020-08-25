@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var Config = require('./config');
+
+var shim = {
+  slick:{
+    path: Config.root + "src/coffee/plugins/slick.js",
+    exports: "slick"
+  }
+};
+
+
+module.exports = shim

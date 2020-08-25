@@ -1,0 +1,401 @@
+{
+    "response": {
+		"KPFacilities": [{
+			"facility_type": "Medical Office Building",
+			"official_name": "Arapahoe Medical Offices",
+			"address": {
+				"street": "5555 East Arapahoe Road",
+				"city": "Centennial",
+				"state": "CO",
+				"zip": "80122"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100532",
+			"loc": ["-104.925", "39.5964"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Aurora Centrepoint Medical Offices",
+			"address": {
+				"street": "14701 E. Exposition Ave.",
+				"city": "Aurora",
+				"state": "CO",
+				"zip": "80012"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100530",
+			"loc": ["-104.817", "39.7045"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Baseline Medical Offices",
+			"address": {
+				"street": "580 Mohawk Drive",
+				"city": "Boulder",
+				"state": "CO",
+				"zip": "80303"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100531",
+			"loc": ["-105.236", "39.9976"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Brighton Medical Offices",
+			"address": {
+				"street": "859 S. Fourth Ave.",
+				"city": "Brighton",
+				"state": "CO",
+				"zip": "80601"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=300453",
+			"loc": ["-104.819", "39.9733"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Castle Rock Medical Offices",
+			"address": {
+				"street": "4318 Trail Boss Drive",
+				"city": "Castle Rock",
+				"state": "CO",
+				"zip": "80104"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=300449",
+			"loc": ["-104.858", "39.406"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "Children's Hospital Colorado Main Campus",
+			"address": {
+				"street": "13123 East 16th Avenue",
+				"city": "Aurora",
+				"state": "CO",
+				"zip": "80045"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100533",
+			"loc": ["-104.835", "39.7422"]
+		}, {
+			"facility_type": "Other",
+			"official_name": "Children's Hospital Colorado North Campus Broomfield",
+			"address": {
+				"street": "469 West Highway 7",
+				"city": "Broomfield",
+				"state": "CO",
+				"zip": "80023"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=320083",
+			"loc": ["-104.993", "40.0014"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "Children's Hospital at Parker Adventist Hospital",
+			"address": {
+				"street": "9395 Crown Crest Boulevard",
+				"city": "Parker",
+				"state": "CO",
+				"zip": "80138"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=306891",
+			"loc": ["-104.771", "39.5486"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "Children's Hospital at Saint Joseph Hospital",
+			"address": {
+				"street": "1830 Franklin Street, Suite 150",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80218"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=314681",
+			"loc": ["-104.968", "39.7455"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "East Denver Medical Offices",
+			"address": {
+				"street": "10400 E. Alameda Ave.",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80247"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100528",
+			"loc": ["-104.869", "39.71"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Edwards Medical Offices",
+			"address": {
+				"street": "56 Edwards Village Blvd., Suite 206",
+				"city": "Edwards",
+				"state": "CO",
+				"zip": "81632"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=321791",
+			"loc": ["-106.594", "39.6434"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Englewood Medical Offices",
+			"address": {
+				"street": "2955 S. Broadway",
+				"city": "Englewood",
+				"state": "CO",
+				"zip": "80113"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100527",
+			"loc": ["-104.988", "39.6631"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Evergreen Medical Offices",
+			"address": {
+				"street": "2942 Evergreen Parkway",
+				"city": "Evergreen",
+				"state": "CO",
+				"zip": "80439"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=300298",
+			"loc": ["-105.352", "39.6612"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Franklin Medical Offices",
+			"address": {
+				"street": "2045 Franklin Street",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80205"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100523",
+			"loc": ["-104.97", "39.7476"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Frisco  Medical Offices",
+			"address": {
+				"street": "226 Lusher Court, Suite 104",
+				"city": "Frisco",
+				"state": "CO",
+				"zip": "80443"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=321789",
+			"loc": ["-106.099", "39.5895"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "Good Samaritan Medical Center",
+			"address": {
+				"street": "200 Exempla Circle",
+				"city": "Lafayette",
+				"state": "CO",
+				"zip": "80026"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=303887",
+			"loc": ["-105.086", "39.9705"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "HealthONE - Rocky Mountain Hospital for Children",
+			"address": {
+				"street": "1719 E. 19th Ave.",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80218"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=300319",
+			"loc": ["-104.967", "39.747"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "HealthONE Sky Ridge Medical Center",
+			"address": {
+				"street": "10101 RidgeGate Parkway",
+				"city": "Lone Tree",
+				"state": "CO",
+				"zip": "80124"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100515",
+			"loc": ["-104.871", "39.5291"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "HealthONE Swedish Medical Center",
+			"address": {
+				"street": "501 East Hampden Avenue",
+				"city": "Englewood",
+				"state": "CO",
+				"zip": "80113"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100511",
+			"loc": ["-104.981", "39.6542"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Hidden Lake Medical Offices",
+			"address": {
+				"street": "7701 Sheridan Blvd",
+				"city": "Westminster",
+				"state": "CO",
+				"zip": "80003"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100522",
+			"loc": ["-105.054", "39.837"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Highlands Ranch Medical Offices",
+			"address": {
+				"street": "9285 Hepburn Street",
+				"city": "Highlands Ranch",
+				"state": "CO",
+				"zip": "80129"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100508",
+			"loc": ["-105.004", "39.5476"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Highline Behavioral Health Center",
+			"address": {
+				"street": "10350 E. Dakota Ave.",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80247"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100521",
+			"loc": ["-104.868", "39.7088"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Ken Caryl Medical Offices",
+			"address": {
+				"street": "7600 Shaffer Parkway",
+				"city": "Littleton",
+				"state": "CO",
+				"zip": "80127"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100520",
+			"loc": ["-105.136", "39.5783"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Lakewood Medical Offices",
+			"address": {
+				"street": "8383 W Alameda Ave.",
+				"city": "Lakewood",
+				"state": "CO",
+				"zip": "80226"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100519",
+			"loc": ["-105.09", "39.7117"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Lone Tree Medical Offices",
+			"address": {
+				"street": "10240 Park Meadows Drive",
+				"city": "Lone Tree",
+				"state": "CO",
+				"zip": "80124"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=306681",
+			"loc": ["-104.873", "39.5451"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Longmont Medical Offices",
+			"address": {
+				"street": "2345 Bent Way",
+				"city": "Longmont",
+				"state": "CO",
+				"zip": "80503"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100518",
+			"loc": ["-105.133", "40.1489"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Parker Medical Offices",
+			"address": {
+				"street": "10168 Parkglenn Way",
+				"city": "Parker",
+				"state": "CO",
+				"zip": "80138"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=300013",
+			"loc": ["-104.765", "39.5342"]
+		}, {
+			"facility_type": "Other",
+			"official_name": "Ridgeline Behavioral Health Center",
+			"address": {
+				"street": "9139 S Ridgeline Blvd",
+				"city": "Highlands Ranch",
+				"state": "CO",
+				"zip": "80129"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100525",
+			"loc": ["-104.997", "39.55"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Rock Creek Medical Offices",
+			"address": {
+				"street": "280 Exempla Circle",
+				"city": "Lafayette",
+				"state": "CO",
+				"zip": "80026"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100516",
+			"loc": ["-105.086", "39.9695"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "Saint Joseph Hospital",
+			"address": {
+				"street": "1375 East 19th Avenue",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80218"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=303381",
+			"loc": ["-104.972", "39.7462"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Skyline Medical Offices",
+			"address": {
+				"street": "1375 E. 20th Avenue",
+				"city": "Denver",
+				"state": "CO",
+				"zip": "80205"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100514",
+			"loc": ["-104.971", "39.7477"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Smoky Hill Medical Offices",
+			"address": {
+				"street": "16290 E. Quincy Ave.",
+				"city": "Aurora",
+				"state": "CO",
+				"zip": "80015"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100513",
+			"loc": ["-104.8", "39.6379"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Southwest Medical Offices",
+			"address": {
+				"street": "5257 S. Wadsworth Blvd.",
+				"city": "Littleton",
+				"state": "CO",
+				"zip": "80123"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100512",
+			"loc": ["-105.091", "39.6143"]
+		}, {
+			"facility_type": "Hospital",
+			"official_name": "Valley View Hospital",
+			"address": {
+				"street": "1906 Blake Avenue",
+				"city": "Glenwood Springs",
+				"state": "CO",
+				"zip": "81601"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=322981",
+			"loc": ["-107.322", "39.5326"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Westminster Medical Offices",
+			"address": {
+				"street": "11245 Huron St.",
+				"city": "Westminster",
+				"state": "CO",
+				"zip": "80234"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100510",
+			"loc": ["-104.998", "39.9019"]
+		}, {
+			"facility_type": "Medical Office Building",
+			"official_name": "Wheat Ridge Medical Offices",
+			"address": {
+				"street": "4803 Ward Road",
+				"city": "Wheat Ridge",
+				"state": "CO",
+				"zip": "80033"
+			},
+			"url": "http:\/\/kp.org\/kpweb\/facilitydir\/facility.do?id=100509",
+			"loc": ["-105.14", "39.7827"]
+		}]
+	}
+}

@@ -1,0 +1,319 @@
+{
+  "app": {"name": "KP", "copyright": "&copy; 2016 Kaiser Permanente", "description": "", "keywords": ""},
+  "regions": {
+    "NCA": "Northern California",
+    "SCA": "Southern California",
+    "CO": "Colorado",
+    "GA": "Georgia",
+    "HAW": "Hawaii",
+    "NW": "Northwest",
+    "MID": "Mid-Atlantic States"
+  },
+  "pages": {
+    "area_colorado_landing": {
+      "locations": [
+        {
+          "name": "Denver/Boulder",
+          "list": [
+            "Aurora",
+            "Boulder",
+            "Castle Rock",
+            "Denver",
+            "Evergreen",
+            "Longmont"
+          ]
+        },
+        {
+          "name": "Mountain Area",
+          "list": [
+            "Eagle",
+            "Edwards",
+            "Frisco",
+            "Glenwood Springs"
+          ]
+        },
+        {
+          "name": "Northern Colorado",
+          "list": [
+            "Estes Park",  
+            "Fort Collins",
+            "Greeley",
+            "Loveland",
+            "Windsor"
+
+          ]
+        },
+        {
+          "name": "Southern Colorado",
+          "list": [
+            "Canyon City",
+            "Colorado Springs",
+            "Cripple Creek",
+            "Falcon",
+            "Pueblo",
+            "Woodland Park"
+          ]
+        }
+      ]
+    },
+    "santa_cruz": {
+      "content_nodes": [
+        {
+          "img": "santa-cruz-member.jpg",
+          "content": "As a member, you get more than just a health plan.We deliver top doctors, personalized care, and the services you need.",
+          "btn": "Shop our plans"
+        },
+        {
+          "img": "santa-cruz-member.jpg",
+          "content": "Our Shop KP retail sales store will be opening in August 2016 in Watsonville. Check back for updates."
+        }
+      ],
+      "maps": [
+        {
+          "title": "Santa Cruz Medical Offices",
+          "img": "map-santa-cruz-medical-office.jpg",
+          "address": "115 Locust St. <br>Santa Cruz, CA 95060",
+          "list": [
+            "Internal and family medicine",
+            "Obstetrics and gynecology",
+            "Pediatrics",
+            "Certain specialists who can offer care through telephone appointments and video visits"
+          ]
+        },
+        {
+          "title": "Granite Creek Business Center",
+          "img": "map-santa-cruz-scotts-valley-medical-office.jpg",
+          "address": "5615 Scotts Valley Dr. <br>Scotts Valley, CA 95066",
+          "list": [
+            "Internal and family medicine",
+            "Obstetrics and gynecology",
+            "Pediatrics",
+            "Lab and Pharmacy",
+            "Radiology and Mammography",
+            "Certain specialists who can offer care through telephone appointments and video visits"
+          ]
+        },
+        {
+          "title": "Watsonville Medical Offices",
+          "img": "map-santa-cruz-watsonville-medical-office.jpg",
+          "address": "1931 Main St. <br>Watsonville, CA 95076",
+          "list": [
+            "Internal and family medicine",
+            "Obstetrics and gynecology",
+            "Pediatrics",
+            "Lab and Pharmacy",
+            "Radiology and Mammography",
+            "Certain specialists who can offer care through telephone appointments and video visits"
+          ]
+        },
+        {
+          "title": "Watsonville Community Hospital",
+          "img": "watsonville-community-hospital.jpg",
+          "address": "75 Nielson St. <br>Watsonville, CA 95076",
+          "content": [
+            "We're also joining with Watsonville Community Hospital* to offer Kaiser Permanente members access to additional emergency services, labor and delivery and other hospital services recommended by your doctor.",
+            "<p><a class='link-external link-formatted text-xbold' href='#'>Learn more about Watsonville Community Hospital<span class='ext-link l-offscreen'>. external page</span></a><p>"
+          ]
+        }
+
+      ]
+    },
+    "facility":{
+      "intro_1": {
+        "type":"h1",
+        "title": "Healthy change is coming to San Jose",
+        "long_Desc":"Soon, you'll have even more access to quality primary and specialty, care in your community. We're excited to open a new medical office building in San Jose, making it even easier for you and your family to get the care you need. all under one roof."
+      },
+      "staticMap": {
+        "inline_img_text":{
+          "map_content": {
+            "lat":"38.4689164",
+            "lng":"-121.4392128"
+          },
+          "map_desc":"Opening in Spring 2018",
+          "desc": "Lorem Ipsum Dolor Sit Amet Header Goes Here",
+          "address": "501 J Street Sacramento, CA 95814",
+          "btn": {
+            "btnName": "Driving directions"
+          },
+          "link":{
+            "name":"Free validated parking",
+            "desc":"View parking directions More about this facility"
+          },
+          "time_title":"Hours:",
+          "time_num":"Monday-Friday 7:15 am-6:00 pm"
+        },
+        "inline_icon_text":{
+          "hasIcon":{
+            "desc":"Services at a glance:",
+            "list":[
+              {
+                "src":"http://via.placeholder.com/60x60",
+                "alt":"fitness toolkits",
+                "desc":"Radiology"
+              },
+              {
+                "src":"http://via.placeholder.com/60x60",
+                "alt":"fitness toolkits",
+                "desc":"Pharmacy"
+              },
+              {
+                "src":"http://via.placeholder.com/60x60",
+                "alt":"fitness toolkits",
+                "desc":"Lab"
+              }
+            ]
+          },
+          "hasLetter":{
+            "desc":"Accessibility:",
+            "letter":"p, eb, ib, r, e, t",
+            "longDesc":"This facility fulfills basic accessibilty standards"
+          },
+          "hasLink": {
+            "href": "javascript:void(0)",
+            "desc": "More about this facility"
+          }
+        }
+      },
+      "intro_2": {
+        "title": "Live, Work, Thrive",
+        "boldText":"Kaiser Permanente is building the future of health in downtown Sacramento",
+        "long_Desc":"Downtown Sacramento is being shaped by more than new building, lively restaurants, and modern shops. It's being transformed by homeowners,entrepreneurs,and other hard-working professionals who keep the city's lights shining.It's being defined by the thousands of fans who fill Golden 1 Center and the neighbors who frequent the local boutiques, museums, and cafes, As the community continues building for the future, Kaiser Permanente is there to make sure it's a healthy one.",
+        "new_center":{
+          "bold":"New Medical Center",
+          "desc":"planed in historic Railyards district - set to open in 2024."
+        },
+        "sports_center":{
+          "bold":"Sports Medicine Center >",
+          "desc":"providing care to athletes of all levels - now open in Golden 1 Center"
+        }
+      },
+      "highLights": {
+        "service_list":[
+          {
+            "desc":"87,300 square feet"
+          },
+          {
+            "desc":"60 provider offices, 95 exam rooms, and 8 procedure rooms"
+          },
+          {
+            "desc":"Pharmacy, specimen lab and imaging all under one roof"
+          },
+          {
+            "desc":"Conveniently located off Hwy 12 West"
+          },
+          {
+            "desc":"Cafe on site"
+          },
+          {
+            "desc":"Health Living and Technology Center"
+          },
+          {
+            "desc":"Register with the certification foal of LEED Platinum for low energy and water use"
+          },
+          {
+            "desc":"Across the street from our new Mercury Way Mental Health and Wellness facility"
+          }
+        ]
+      },
+      "multi_icon":{
+        "title":"Salud en Espanol",
+        "long_Desc":"At our new medical offices, you will have access to the Salud en Espanol module if you prefer to be treated in your language by primary care doctors, nurses and more. That way you'll feel even more comfortable getting Kaiser Permanentes quality care.",
+        "icon_text":{
+          "icon_list":[
+            {
+              "src":"http://via.placeholder.com/100x100",
+              "alt":"",
+              "desc":"Adult and Family Medicine"
+            },
+            {
+              "src":"http://via.placeholder.com/100x100",
+              "alt":"",
+              "desc":"Pediatrice"
+            },
+            {
+              "src":"http://via.placeholder.com/100x100",
+              "alt":"",
+              "desc":"Obstetries/Gynecoiogy"
+            }
+          ]
+        }
+      },
+      "quoteData":{
+        "inline_img_text":{
+          "quoteImg":{
+            "src":"./static/img/new-facilities/icon-quote.png",
+            "alt":""
+          },
+          "static_img":{
+            "src":"http://via.placeholder.com/280x224",
+            "alt":"fitness toolkits"
+          },
+          "src":"http://via.placeholder.com/165x165",
+          "alt":"",
+          "desc":"The state of the art Medical Office building represents Kaiser Permanente's continued commitment to providing convenient, high quality healthcare to our members in their communities. Leveraging our integrated approach and technology. we look forward to providing an exception care experience to our members at this new Southwest Santa Rosa location.",
+          "link":{
+            "desc":"Micheal Shulman,MD",
+            "name":"Physician in Chief"
+          }
+        }
+      },
+      "shopPlans":{
+        "icon_text":[
+          {
+            "src":"http://via.placeholder.com/120x120",
+            "alt":"",
+            "desc":"Indivduals and families >",
+            "id":"society-01"
+          },
+          {
+            "src":"http://via.placeholder.com/120x120",
+            "alt":"",
+            "desc":"Medicaid Medi-Cal >",
+            "id":"society-02"
+          },
+          {
+            "src":"http://via.placeholder.com/120x120",
+            "alt":"",
+            "desc":"Medicare >",
+            "id":"society-03"
+          },
+          {
+            "src":"http://via.placeholder.com/120x120",
+            "alt":"",
+            "desc":"Covered through your employer >",
+            "id":"society-04"
+          },
+          {
+            "src":"http://via.placeholder.com/120x120",
+            "alt":"",
+            "desc":"Losing Coverage >",
+            "id":"society-05"
+          }
+        ],
+        "society":[
+          {
+            "id":"society-01",
+            "txt":"Life keeps you beauty. "
+          },
+          {
+            "id":"society-02",
+            "txt":"Life So we make a easy to compare health plan options, got a quote and apply online. You'll be done in on time"
+          },
+          {
+            "id":"society-03",
+            "txt":"Life keeps you beauty. options, got a quote and apply online. You'll be done in on time"
+          },
+          {
+            "id":"society-04",
+            "txt":"Life keeps you beauty. So we make a easy to compare health plan options,  online. You'll be done in on time"
+          },
+          {
+            "id":"society-05",
+            "txt":"Life keeps you beauty. So we make a easy to compare health plan options, got a quote and apply online. You'll be done in on time"
+          }
+        ]
+      }
+    }
+  }
+}
