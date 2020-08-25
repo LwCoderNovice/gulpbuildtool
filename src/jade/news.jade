@@ -1,0 +1,33 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  .content content
+  +pagetitle({
+    title: '新闻中心',
+    description: 'news cemter '
+  })
+
+  +newlist-item({
+    items: [
+      {
+        title: '新闻标题',
+        publishtime: '2020-02-21',
+        description: '描述描述',
+        url: '#'
+      },
+      {
+        title: '新闻标题',
+        publishtime: '2020-02-21',
+        description: '描述描述',
+        url: '#'
+      },
+      {
+        title: '新闻标题',
+        publishtime: '2020-02-21',
+        description: '描述描述',
+        url: '#'
+      }
+    ]
+  })

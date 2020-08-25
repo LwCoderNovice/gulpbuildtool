@@ -1,0 +1,38 @@
+.content-title
+  text-align: center
+  h3
+    font-size: $big-fontsize
+  span
+    display: block
+    padding: 5px 10px
+    background: $main-color
+    color: $white-color
+    text-transform: uppercase
+
+.content-breadcrumbs
+  font-size: $larger-fontsize
+  color: $main-color
+  background: $background-color
+  padding: 0 5px
+  .breadcrumbs
+    span 
+      font-size: $mini-fontsize
+      
+.content-nav
+  li
+    text-align: center
+    text-align: center
+    span 
+      display: none
+      width 8px
+      height 8px
+      border-width: 1px
+      border-style: solid
+      border-color: transparent 
+      border-right-color: $white-color
+      border-bottom-color: $white-color
+      transform: rotate(-35deg) skew(10deg, 10deg)
+    &.active,
+    &:hover
+      span 
+        display: inline-block

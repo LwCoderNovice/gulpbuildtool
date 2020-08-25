@@ -1,0 +1,47 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  .content content
+  +pagetitle({
+    title: '产品中心',
+    description: 'product cemter '
+  })
+
+  +page-breadcrumbs({
+    title: '产品中心',
+    list: [
+      '网站首页',
+      '产品中心'
+    ]
+  })
+
+  +pagenav({
+    nav: [
+      '子产品1',
+      '子产品2',
+      '子产品3',
+      '子产品4'
+    ]
+  })
+
+  +itemlist({
+    items: [
+      {
+        title: '产品名称',
+        description: '描述描述',
+        url: '#'
+      },
+      {
+        title: '产品名称',
+        description: '描述描述',
+        url: '#'
+      },
+      {
+        title: '产品名称',
+        description: '描述描述',
+        url: '#'
+      }
+    ]
+  })

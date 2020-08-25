@@ -1,0 +1,43 @@
+mixin pagetitle(ops)
+  .content-title
+    h3 #{ops.title}
+    span #{ops.description}
+
+mixin pagenav(ops)
+  .content-nav
+    ul
+      each opt, idx in ops.nav
+        li #{opt}
+
+mixin page-breadcrumbs(ops)
+  .content-breadcrumbs
+    h4 #{ops.title}
+    .breadcrumbs
+      .ad 您当前的位置: 
+      each opt, idx in ops.list
+        span #{opt}
+
+mixin newlist-item(ops)
+  .content-newslist
+    each opt, idex in ops.items
+      .news-item
+        .item-img
+          img(src="", alt="")
+        .item-content
+          h4 #{opt.title}
+            span #{opt.publishtime}
+          p #{opt.description}
+          span.learn-more 
+            a(href="#{opt.url}") 查看更多
+
+mixin itemlist(ops)
+  .content-itemlist
+    each opt, idex in ops.items
+      .news-item
+        .item-img
+          img(src="", alt="")
+        .item-content
+          h4 #{opt.title}
+          p #{opt.description}
+          span.learn-more 
+            a.btn-primary(href="#{opt.url}") 查看更多
