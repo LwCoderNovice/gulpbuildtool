@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer-stylus": "^1.0.0",
     "browserify": "^16.5.2",
     "coffee-script": "^1.12.7",
     "coffeeify": "^3.0.1",
@@ -25,9 +26,12 @@
     "gulp-rename": "^2.0.0",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylus": "^2.7.0",
     "gulp-uglify": "^3.0.2",
     "gulp-uglify-es": "^2.0.0",
     "jquery": "^3.5.1",
+    "nib": "^1.1.2",
+    "node-watch": "^0.6.4",
     "reactify": "^1.1.1",
     "run-sequence": "^2.2.1"
   }

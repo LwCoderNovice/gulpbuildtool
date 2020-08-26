@@ -1,0 +1,72 @@
+/* coffee : 1.0.0 : Wed Aug 26 2020 17:09:50 GMT+0800 (China Standard Time) */body {
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+header .header-main {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-main .header-nav ul {
+  display: flex;
+  align-items: center;
+}
+header .header-main .header-nav ul li {
+  padding: 20px;
+}
+header .header-main .header-nav ul li.active,
+header .header-main .header-nav ul li:hover {
+  background: #0c6bfa;
+  color: #fff;
+}
+footer {
+  background: #0c6bfa;
+  color: #fff;
+  font-size: 12px;
+  padding: 15px 0;
+  text-align: center;
+}
+.content-title {
+  text-align: center;
+}
+.content-title h3 {
+  font-size: 20px;
+}
+.content-title span {
+  display: block;
+  padding: 5px 10px;
+  background: #0c6bfa;
+  color: #fff;
+  text-transform: uppercase;
+}
+.content-breadcrumbs {
+  font-size: 16px;
+  color: #0c6bfa;
+  background: #68cdfd;
+  padding: 0 5px;
+}
+.content-breadcrumbs .breadcrumbs span {
+  font-size: 12px;
+}
+.content-nav li {
+  text-align: center;
+  text-align: center;
+}
+.content-nav li span {
+  display: none;
+  width: 8px;
+  height: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  transform: rotate(-35deg) skew(10deg, 10deg);
+}
+.content-nav li.active span,
+.content-nav li:hover span {
+  display: inline-block;
+}

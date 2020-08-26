@@ -11,7 +11,7 @@ var config = {
   srcImg: './src/img/',
   srcScriptsStandalone: './src/scripts/standalone/',
   srcJade: './src/jade/',
-  srcStylus: './src/stylus/',
+  srcStylus: './src/styl/',
   destStylus: './public/static/css/',
   destScripts: './public/static/js/',
   destImg: './public/static/img/',
