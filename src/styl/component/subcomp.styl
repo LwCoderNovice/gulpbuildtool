@@ -1,9 +1,11 @@
 .content-title
   text-align: center
+  margin-bottom: 30px
   h3
     font-size: $big-fontsize
+    margin-bottom: 10px
   span
-    display: block
+    display: inline-block
     padding: 5px 10px
     background: $main-color
     color: $white-color
@@ -13,26 +15,117 @@
   font-size: $larger-fontsize
   color: $main-color
   background: $background-color
-  padding: 0 5px
+  padding: 8px 5px
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   .breadcrumbs
+    display: flex;
+    align-items: center;
     span 
       font-size: $mini-fontsize
+      margin-left: 10px
       
 .content-nav
+  width: 190px
   li
-    text-align: center
-    text-align: center
-    span 
-      display: none
-      width 8px
-      height 8px
-      border-width: 1px
-      border-style: solid
-      border-color: transparent 
-      border-right-color: $white-color
-      border-bottom-color: $white-color
-      transform: rotate(-35deg) skew(10deg, 10deg)
-    &.active,
-    &:hover
+    margin-bottom: 2px
+    a
+      display: block
+      padding: 8px 10px
+      text-decoration: none
+      text-align: center
+      background: #f6f6f6
+      color: #666666
+      &:visited
+        color: #666666
+      &.active
+      &:hover
+        background: $main-color
+        color: $white-color
+        span 
+          border-right-color: $white-color
+          border-bottom-color: $white-color
+
       span 
         display: inline-block
+        width 5px
+        height 5px
+        border-width: 1px
+        border-style: solid
+        border-color: transparent 
+        
+        transform: rotate(-43deg) skew(18deg, 16deg);
+        top: -2px;
+        position: relative;
+      
+.content-newslist
+  .news-item
+    margin-bottom: 30px
+    display: flex
+    .item-img
+      flex: 0 0 300px
+      margin-right: 10px
+      img 
+        width: 100%
+    .item-content
+      flex: 1
+      color: #666666
+      position relative
+      h4
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+      .learn-more 
+        position absolute
+        left: 0
+        bottom: 0
+        a
+          text-decoration: none
+          font-size: 12px
+          color: #666
+
+.content-itemlist
+  margin-top: 20px
+  .news-item
+    display: flex
+    padding-bottom: 25px
+    margin-bottom: 30px
+    border-bottom: 1px solid $border-color;
+    .item-img
+      margin-right: 10px
+      flex: 0 0 120px
+    .item-content
+      flex: 1
+      position: relative
+      h4
+        font-size: $larger-fontsize
+        color: $main-color
+        margin-bottom: 20px
+
+      .learn-more
+        position: absolute
+        right: 10px
+        bottom: 10px
+        a
+          display: inline-block
+          text-decoration: none
+          color: $white-color
+          padding: 8px 15px
+          border-radius: 8px
+          background-color: $main-color
+          font-size: 17px
+
+.content-component
+  text-align: center
+  padding-bottom: 30px
+  font-size: $mini-fontsize
+
+.page-block
+  display: flex
+  margin-top: 5px
+  .page-min-banner
+    flex: 1
+    margin-left: 10px
+    img 
+      width: 100%

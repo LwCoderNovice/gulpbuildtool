@@ -1,0 +1,30 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  include ./common/banner.jade
+  .zp-main
+    +pagetitle({
+      title: '技术服务',
+      description: 'Technical Services'
+    })
+
+    +page-breadcrumbs({
+      title: '技术服务',
+      list: [
+        '网站首页',
+        '技术服务'
+      ]
+    })
+
+    .page-block
+      +pagenav({
+        nav: [
+          '售后服务',
+          '客户留言',
+          '资料下载',
+          '投诉建议'
+        ]
+      })
+      include ./common/pagebanner

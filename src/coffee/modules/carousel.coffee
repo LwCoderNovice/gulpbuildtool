@@ -1,8 +1,10 @@
+# Swiper = require 'swiper' 
+
 class carouselBanner extends ZP.apps.ZPModule
     init: ->
       @events()
     
     events: ->
-      console.log("a")
+      # mySwiper = new Swiper @.target
 
 $.ZPPluggin(carouselBanner, 'carouselBanner', true)

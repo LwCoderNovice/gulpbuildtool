@@ -1,0 +1,64 @@
+.homepage
+  position relative
+  .home-items
+    position absolute
+    bottom 150px
+    left 0 
+    right 0
+    margin: auto
+    z-index: 11;
+    display: flex;
+    max-width: 45%;
+    justify-content: space-between;
+    .home-item
+      border-radius: 10px
+      padding: 10px
+      position relative
+      overflow: hidden
+      display: flex
+      .item-img
+        height: 100%;
+        width: 100px;
+        flex: 0 0 100px
+        img 
+          width: 100%
+          height 100%
+      .item-content
+        margin-left: 10px;
+        flex: 0 0 120px
+        width 120px
+        h5
+          color: #3b81bd
+          margin: 0 0 10px
+          font-size: $larger-fontsize
+        ul
+          li
+            margin-bottom: 5px
+            &:before
+              content: ''
+              width 0
+              height 0
+              display: inline-block
+              border-width: 5px
+              border-color: #e77813
+              border-style: solid 
+              border-top-color: transparent
+              border-left-color: transparent
+              transform: rotate(-45deg);
+              margin-right: 5px
+            a 
+              color: #202020
+              text-decoration: none
+              font-size: $default-fontsize
+      &:after
+        content: ''
+        position absolute
+        background: #ffffff
+        opacity 0.7
+        display: block
+        width 100%
+        height 100%
+        top 0
+        left 0
+        z-index -1
+

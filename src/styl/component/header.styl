@@ -1,6 +1,7 @@
 header
   .header-main
     max-width: 960px
+    margin: auto
     display: flex
     align-items: center
     justify-content: space-between
@@ -9,8 +10,19 @@ header
         display: flex
         align-items: center
         li
-          padding: 20px
-          &.active,
-          &:hover
+          a.active,
+          a:hover
             background: $main-color
             color: $white-color
+          
+          a
+            color #202020
+            text-decoration: none
+            display: block
+            padding: 20px
+            &:visited
+              color: #202020
+            &:hover
+              background: $main-color
+              color: $white-color
+            

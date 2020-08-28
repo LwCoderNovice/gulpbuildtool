@@ -7,7 +7,9 @@ mixin pagenav(ops)
   .content-nav
     ul
       each opt, idx in ops.nav
-        li #{opt}
+        li 
+          a(href="") #{opt}
+            span
 
 mixin page-breadcrumbs(ops)
   .content-breadcrumbs
@@ -22,7 +24,7 @@ mixin newlist-item(ops)
     each opt, idex in ops.items
       .news-item
         .item-img
-          img(src="", alt="")
+          img(src="./static/images/image-default.png", alt="")
         .item-content
           h4 #{opt.title}
             span #{opt.publishtime}
@@ -35,9 +37,9 @@ mixin itemlist(ops)
     each opt, idex in ops.items
       .news-item
         .item-img
-          img(src="", alt="")
+          img(src="./static/images/image-default.png", alt="")
         .item-content
           h4 #{opt.title}
           p #{opt.description}
           span.learn-more 
-            a.btn-primary(href="#{opt.url}") 查看更多
+            a.btn-primary(href="#{opt.url}") 查看更多>>

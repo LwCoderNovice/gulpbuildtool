@@ -4,30 +4,79 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/main.css"><link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">   
   </head>
 </html>
 <body>
   <header>
     <div class="header-main">
-      <div class="header-logo"><img src="" alt=""></div>
+      <div class="header-logo"><img src="./static/images/logo.png" alt=""></div>
       <div class="header-nav">
         <ul>
-          <li class="active"><a href="#">关于真言</a></li>
-          <li><a href="#">新闻中心</a></li>
-          <li><a href="#">产品中心</a></li>
-          <li><a href="#">解决方案</a></li>
-          <li><a href="#">典型案例</a></li>
-          <li><a href="#">技术服务</a></li>
-          <li><a href="#">招贤纳士</a></li>
-          <li><a href="#">联系我们</a></li>
+          <li class="active"><a href="index.html">关于真言</a></li>
+          <li><a href="news.html">新闻中心</a></li>
+          <li><a href="products.html">产品中心</a></li>
+          <li><a href="solutions.html">解决方案</a></li>
+          <li><a href="example.html">典型案例</a></li>
+          <li><a href="server.html">技术服务</a></li>
+          <li><a href="recruitment.html">招贤纳士</a></li>
+          <li><a href="contact.html">联系我们</a></li>
         </ul>
       </div>
     </div>
   </header>
-  <div class="content">content</div>
+  <div class="homepage">
+    <div class="swiper-container hero-banner">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./static/images/banner-1.png" alt=""></div>
+        <div class="swiper-slide"><img src="./static/images/banner-2.png" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="home-items">
+      <div class="home-item">
+        <div class="item-img"><img src="http://placehold.it/100x160" alt=""></div>
+        <div class="item-content">
+          <h5>产品中心</h5>
+          <ul>
+            <li><a href="#">环境治理</a></li>
+            <li><a href="#">环境检测</a></li>
+            <li><a href="#">环境信息化</a></li>
+            <li><a href="#">基础设施检测</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="home-item">
+        <div class="item-img"><img src="http://placehold.it/100x160" alt=""></div>
+        <div class="item-content">
+          <h5>解决方案</h5>
+          <ul>
+            <li><a href="#">废水治理</a></li>
+            <li><a href="#">废水治理</a></li>
+            <li><a href="#">环境信息化</a></li>
+            <li><a href="#">基础设施检测</a></li>
+            <li><a href="#">基础设施检测</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="home-item">
+        <div class="item-img"><img src="http://placehold.it/100x160" alt=""></div>
+        <div class="item-content">
+          <h5>典型案例</h5>
+          <ul>
+            <li><a href="#">环境治理</a></li>
+            <li><a href="#">环境检测</a></li>
+            <li><a href="#">环境信息化</a></li>
+            <li><a href="#">基础设施检测</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
     <p>Copyright &copy; 2020</p>
     <p>公司地址</p>
-  </footer>
+  </footer><script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+  <script src="./static/js/main.js"></script>
 </body>

@@ -1,0 +1,48 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  include ./common/banner.jade
+  .zp-main
+    +pagetitle({
+      title: '经典案例',
+      description: 'classic case'
+    })
+
+    +page-breadcrumbs({
+      title: '经典案例',
+      list: [
+        '网站首页',
+        '经典案例'
+      ]
+    })
+
+    .page-block
+      +pagenav({
+        nav: [
+          '环境治理',
+          '环境监测',
+        ]
+      })
+
+      include ./common/pagebanner
+    +itemlist({
+      items: [
+        {
+          title: '产品名称',
+          description: '描述描述',
+          url: '#'
+        },
+        {
+          title: '产品名称',
+          description: '描述描述',
+          url: '#'
+        },
+        {
+          title: '产品名称',
+          description: '描述描述',
+          url: '#'
+        }
+      ]
+    })

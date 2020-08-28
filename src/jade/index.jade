@@ -1,4 +1,51 @@
 extends templates/master
 
 block main-content
-    .content content
+  .homepage
+    include ./common/hero.jade
+    .home-items
+      .home-item
+        .item-img
+          img(src="http://placehold.it/100x160", alt="")
+        .item-content
+          h5 产品中心
+          ul
+            li
+              a(href="#") 环境治理
+            li
+              a(href="#") 环境检测
+            li
+              a(href="#") 环境信息化
+            li
+              a(href="#") 基础设施检测
+      .home-item
+        .item-img
+          img(src="http://placehold.it/100x160", alt="")
+        .item-content
+          h5 解决方案
+          ul
+            li
+              a(href="#") 废水治理
+            li
+              a(href="#") 废水治理
+            li
+              a(href="#") 环境信息化
+            li
+              a(href="#") 基础设施检测
+            li
+              a(href="#") 基础设施检测
+      .home-item
+        .item-img
+          img(src="http://placehold.it/100x160", alt="")
+        .item-content
+          h5 典型案例
+          ul
+            li
+              a(href="#") 环境治理
+            li
+              a(href="#") 环境检测
+            li
+              a(href="#") 环境信息化
+            li
+              a(href="#") 基础设施检测
+          

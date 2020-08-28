@@ -1,0 +1,51 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  .zp-main
+    +pagetitle({
+      title: '解决方案',
+      description: 'solution'
+    })
+
+    +page-breadcrumbs({
+      title: '解决方案',
+      list: [
+        '网站首页',
+        '解决方案'
+      ]
+    })
+
+    .page-block
+      +pagenav({
+        nav: [
+          '废气治理',
+          '废水处理',
+          '环境检测',
+          '环境信息化',
+          '基础设施建设'
+        ]
+      })
+
+      include ./common/pagebanner
+
+    +itemlist({
+      items: [
+        {
+          title: '废气治理解决方案',
+          description: '低温等离子体技术用于废气领域的治理是近十年内才发展起来的一门新兴电子化学技术，它融合高压放电、机械制造、工业化学、消防安全等多个领域的技术于一体，运用全新的理念、新颖的技术、独到的治理方法为环保领域中工业废气的治理开辟了一条新思路',
+          url: '#'
+        },
+        {
+          title: '废水治理解决方案',
+          description: '低成本、高能效地使废水达标排放或回用是水处理领域永远追求的目标,而废水中有毒、难降解污染物(如含芳环类化合物、有机聚合物、表面活性剂等)的治理是达标排放或回用中的关键环节。针对这些污染物，',
+          url: '#'
+        },
+        {
+          title: '产品名称',
+          description: '描述描述',
+          url: '#'
+        }
+      ]
+    })

@@ -1,0 +1,35 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  include ./common/banner.jade
+  .zp-main
+    +pagetitle({
+      title: '联系我们',
+      description: 'contact us'
+    })
+    .zp-contact
+      .content-component 为了进一步
+      .map
+        img(src="./static/images/map.png", alt="")
+      .mark-items
+        .item
+          span.icon.icon-address
+          span 河北真言电子
+        .item
+          span.icon.icon-phone
+          span 电话：0111
+        .item
+          span.icon.icon-fax
+          span 传真
+        .item
+          span.icon.icon-postcode
+          span 050091
+        .item
+          span.icon.icon-email
+          span Email:
+        .item
+          span.icon.icon-address
+          span 地址：
+        

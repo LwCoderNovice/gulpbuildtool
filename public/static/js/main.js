@@ -10955,6 +10955,7 @@ require('./modules/carousel.coffee');
 
 
 },{"./helper/zp-module.coffee":2,"./helper/zp-pluggin.coffee":3,"./modules/carousel.coffee":5,"./modules/ready.coffee":6}],5:[function(require,module,exports){
+// Swiper = require 'swiper' 
 var carouselBanner;
 
 carouselBanner = class carouselBanner extends ZP.apps.ZPModule {
@@ -10962,21 +10963,33 @@ carouselBanner = class carouselBanner extends ZP.apps.ZPModule {
     return this.events();
   }
 
-  events() {
-    return console.log("a");
-  }
+  events() {}
 
 };
 
+// mySwiper = new Swiper @.target
 $.ZPPluggin(carouselBanner, 'carouselBanner', true);
 
 
 },{}],6:[function(require,module,exports){
 $(document).ready(function() {
-  $.loadPluggins = function() {
-    return $('[data-js-carousel]').carouselBanner();
-  };
-  return $.loadPluggins();
+  var mySwiper;
+  $.loadPluggins = function() {};
+  $.loadPluggins();
+  mySwiper = new Swiper('.page-banner', {
+    autoplay: true,
+    loop: true,
+    pagination: {
+      el: '.page-banner .swiper-pagination'
+    }
+  });
+  return mySwiper = new Swiper('.hero-banner', {
+    autoplay: true,
+    loop: true,
+    pagination: {
+      el: '.hero-banner .swiper-pagination'
+    }
+  });
 });
 
 

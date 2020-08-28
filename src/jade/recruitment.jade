@@ -1,0 +1,11 @@
+extends templates/master
+
+include ./mixin/page-component
+
+block main-content
+  .include ./common/banner.jade
+  .zp-main
+    +pagetitle({
+      title: '人才理念',
+      description: 'talent concept'
+    })
