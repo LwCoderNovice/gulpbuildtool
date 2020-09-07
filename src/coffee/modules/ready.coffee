@@ -13,3 +13,15 @@ $(document).ready ->
                         loop: true
                         pagination: 
                           el: '.hero-banner .swiper-pagination'
+
+  map = new BMapGL.Map("map");
+  point = new BMapGL.Point(116.404, 39.915);
+  map.centerAndZoom(point, 15);
+
+
+  pt = new BMapGL.Point(116.417, 39.909);
+  myIcon = new BMapGL.Icon("/jsdemo/img/car.png", new BMapGL.Size(52, 26));
+  marker = new BMapGL.Marker(pt, {
+    icon: myIcon
+  });  
+  map.addOverlay(marker);              
