@@ -1,4 +1,4 @@
-/* coffee : 1.0.0 : Sat Aug 29 2020 02:08:17 GMT+0800 (GMT+08:00) */body {
+/* coffee : 1.0.0 : Tue Sep 08 2020 18:13:47 GMT+0800 (China Standard Time) */body {
   margin: 0;
   color: #666;
   font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
@@ -47,6 +47,7 @@ h4 {
   display: block;
 }
 .map {
+  min-height: 400px;
   margin-bottom: 20px;
 }
 .map img {

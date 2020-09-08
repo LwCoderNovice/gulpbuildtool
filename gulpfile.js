@@ -11,9 +11,10 @@ var plugins = require('gulp-load-plugins')({
   });
 var pkg = require('./package.json');
 var uglify = require('gulp-uglify-es').default;
-
+var express = require('express');
 var autoprefixer = require('autoprefixer-stylus');
-
+var lr = require('tiny-lr')();
+var open = require('open');
 scripts = {
     coffee: [config.srcScripts + 'vendor/*.coffee', 
       config.srcScripts + 'helpers/*.coffee',
@@ -80,6 +81,18 @@ gulp.task('images', function() {
   .pipe(plugins.size({
     showFiles: true
   })).pipe(gulp.dest(config.destImg));
+});
+
+gulp.task('server', function() {
+  var app;
+  app = express();
+  app.use(require('connect-livereload')());
+  app.use(express['static'](config.build));
+  app.listen(config.port);
+  lr.listen(35729);
+  return setTimeout(function() {
+    return open('http://localhost:' + config.port + '/index.html');
+  }, 3000);
 });
 
 gulp.task('watch', function() {

@@ -13,6 +13,8 @@
     "browserify": "^16.5.2",
     "coffee-script": "^1.12.7",
     "coffeeify": "^3.0.1",
+    "connect-livereload": "^0.6.1",
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-browserify": "^0.5.1",
     "gulp-cli": "^2.3.0",
@@ -32,7 +34,9 @@
     "jquery": "^3.5.1",
     "nib": "^1.1.2",
     "node-watch": "^0.6.4",
+    "open": "^7.2.1",
     "reactify": "^1.1.1",
-    "run-sequence": "^2.2.1"
+    "run-sequence": "^2.2.1",
+    "tiny-lr": "^1.1.1"
   }
 }
